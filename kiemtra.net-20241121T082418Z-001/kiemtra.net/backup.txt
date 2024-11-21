@@ -1,0 +1,49 @@
+CREATE DATABASE MobileShop;
+USE MobileShop;
+
+CREATE TABLE SanPham (
+    id INT  PRIMARY KEY,
+    tenSP NVARCHAR(100) NOT NULL,
+    gia DECIMAL(10, 2) NOT NULL,
+    hangSX NVARCHAR(100) NOT NULL
+);
+
+CREATE TABLE KhachHang (
+    id INT PRIMARY KEY,
+    tenKH VARCHAR(100) NOT NULL,
+    diachi VARCHAR(255),
+    sdt VARCHAR(15)
+);
+
+CREATE TABLE DonHang (
+    id INT PRIMARY KEY,
+    khachhangid INT,
+    sanphamid INT,
+    soluong INT,
+    ngaymua DATE,
+    FOREIGN KEY (khachhangid) REFERENCES KhachHang(id),
+    FOREIGN KEY (sanphamid) REFERENCES SanPham(id)
+);
+
+CREATE TABLE NguoiDung (
+    id INT PRIMARY KEY,
+    tendangnhap VARCHAR(100) UNIQUE NOT NULL,
+    matkhau VARCHAR(255) NOT NULL
+);
+
+INSERT INTO SanPham (id, tenSP, gia, hangSX) VALUES
+('01','iPhone 15', 30000, 'Apple'),
+('02','Samsung Galaxy S23', 25000, 'Samsung'),
+('03','Xiaomi Redmi 12', 7000, 'Xiaomi');
+
+INSERT INTO KhachHang(id, tenKH, diachi, sdt) VALUES
+('01','Nguyễn Văn Quang', 'Hà Nội', '0987654321'),
+('02','Trần Thị Hoa', 'TP.HCM', '0912345678');
+
+INSERT INTO DonHang (id, khachhangid, sanphamid, soluong, ngaymua) VALUES
+('01',01, 01, 1, '2024-11-15'),
+('02',02, 03, 2, '2024-11-16');
+
+INSERT INTO NguoiDung (id, tendangnhap, matkhau) VALUES
+('01','admin', 'admin'),
+('02','user', '123456');

@@ -1,0 +1,13 @@
+C:\Users\kocan\OneDrive\Máy tính\kiemtra.net\kiemtra.net\bin\Debug\kiemtra.net.exe.config
+C:\Users\kocan\OneDrive\Máy tính\kiemtra.net\kiemtra.net\bin\Debug\kiemtra.net.exe
+C:\Users\kocan\OneDrive\Máy tính\kiemtra.net\kiemtra.net\bin\Debug\kiemtra.net.pdb
+C:\Users\kocan\OneDrive\Máy tính\kiemtra.net\kiemtra.net\obj\Debug\kiemtra.net.csproj.AssemblyReference.cache
+C:\Users\kocan\OneDrive\Máy tính\kiemtra.net\kiemtra.net\obj\Debug\kiemtra.net.Form1.resources
+C:\Users\kocan\OneDrive\Máy tính\kiemtra.net\kiemtra.net\obj\Debug\kiemtra.net.Properties.Resources.resources
+C:\Users\kocan\OneDrive\Máy tính\kiemtra.net\kiemtra.net\obj\Debug\kiemtra.net.csproj.GenerateResource.cache
+C:\Users\kocan\OneDrive\Máy tính\kiemtra.net\kiemtra.net\obj\Debug\kiemtra.net.csproj.CoreCompileInputs.cache
+C:\Users\kocan\OneDrive\Máy tính\kiemtra.net\kiemtra.net\obj\Debug\kiemtra.net.exe
+C:\Users\kocan\OneDrive\Máy tính\kiemtra.net\kiemtra.net\obj\Debug\kiemtra.net.pdb
+C:\Users\kocan\OneDrive\Máy tính\kiemtra.net\kiemtra.net\obj\Debug\kiemtra.net.Main.resources
+C:\Users\kocan\OneDrive\Máy tính\kiemtra.net\kiemtra.net\obj\Debug\kiemtra.net.DonHang.resources
+C:\Users\kocan\OneDrive\Máy tính\kiemtra.net\kiemtra.net\obj\Debug\kiemtra.net.DoanhThu.resources
